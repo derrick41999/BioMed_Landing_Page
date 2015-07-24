@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta charset="utf-8">
+    <!-- Icon -->
+    <title>Canon BioMedical</title>
+    <link rel="shortcut icon" href="img/canonIco.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,300,200,100,600,500,700,800,900' rel='stylesheet' type='text/css'> -->
+    <link href="font/Raleway/stylesheet.css" rel='stylesheet' type='text/css'>
+
+    <style>
+      p {
+        font-family: 'RalewayMedium', sans-serif;
+       /* font-weight: 500;*/
+        margin-top: 2em;
+        white-space: nowrap;
+        -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
+      }
+      .heroContainer {
+        background: -webkit-linear-gradient(right, #E32028 64%, #CF1A21 36%); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #E32028 64%, #CF1A21 36%); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #E32028 64%, #CF1A21 36%); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #E32028 64%, #CF1A21 36%); /* Standard syntax (must be last) */
+        background-color: #E32028;
+/*        border-bottom: solid 6px #00AEEF;*/
+        width: 100%;
+        display: block;
+        overflow: hidden;
+      }
+      .bodyCopyContainer {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+      }
+      .heroImage, .bodyCopyImage {
+        margin-left: auto;
+        margin-right: auto;
+        width: 940px;
+        display: block;
+      }
+      .revealing {
+        font-family: 'RalewayLight', sans-serif;
+        font-size: 5em;
+        /*font-weight: 300;*/
+        padding-right: .15em;
+        border-right: solid 4px #00AEEF;
+      }
+      .partner {
+        font-size: 2.2em;
+        margin-left: .15em;
+        position: relative;
+        top: -17px;
+        max-width: 100%;
+      }
+      .centered {
+        margin-top: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .red {
+        color: #E32028;
+        font-family: 'RalewayLight', sans-serif;
+        /*font-weight: 300;*/
+      }
+        .display { 
+    display: none;
+  }
+    </style>
+    <style>
+@media screen and (max-width: 1150px) {
+    .centered {
+      margin-top: 180px;
+      margin-left: 20px;
+    }
+    .revealing {
+      border-style: none;
+    }
+    .display { 
+      display:block;
+  }
+  @media screen and (max-width: 767px) {
+    .centered {
+      margin-top: 80px;
+      }
+    }
+  @media screen and (max-width: 740px) {
+    img {
+    margin-left: inherit;
+  }
+  .heroContainer {
+    border-bottom: solid 2px #00AEEF;
+    background-color: none;
+    background: linear-gradient(to right, #ffffff 64%, #ffffff 36%);
+  }
+  .centered {
+  margin-top: 7em;
+  }
+  .revealing {
+   border-right: inherit; 
+  }
+  .partner {
+  font-size: 3em;
+      }
+}
+  @media screen and (max-width: 667px) {
+    .centered {
+      margin-left: 0;
+    }
+    .revealing {
+      font-size: 3.5em;
+    }
+    .partner {
+      font-size: 2em;
+    } 
+    }
+</style>
+  </head>
+  <body>
+    <section class="row-fluid">
+      <section class="heroContainer col-xs-12 visible-phone">
+          <section class="heroImage">
+              <img src="img/canon-reveal_small.jpg" />
+          </section>
+    </section>
+        <section class="heroContainer col-sm-12 col-md-12 col-lg-12 visible-tablet visible-desktop">
+          <section class="heroImage">
+              <img src=" img/canon-reveal.jpg" />
+          </section>
+    </section>
+    <section class="row-fluid">
+      <section class="bodyCopyContainer col-xs-12 visible-phone">
+          <section class="bodyCopyImage">
+            <p class="centered"><span class="revealing">REVEALING</span></p><br/>
+            <p><span class="partner">your <span class="red">new partner</span></p>
+            <p><span class="partner">in</span> <span class="red partner"> genetic research</span></p>
+            <p><span class="partner">soon....</span></p>
+          </section>
+    </section>
+        <section class="bodyCopyContainer col-sm-12 col-md-12 col-lg-12 visible-tablet visible-desktop">
+          <section class="bodyCopyImage">
+            <p class="centered"><span class="revealing">REVEALING</span>&nbsp;<span class="partner"><br class="display" /><br class="display" /> your<span class="red"> new partner</span> in <span class="red">genetic research</span> soon....</span><p>
+          </section>
+    </section>
+  </body>
+</html>
